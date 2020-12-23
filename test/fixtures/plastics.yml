@@ -1,9 +1,23 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  number: 1
+  plastic_bags: 1
+  coffee_cup: 1
+  plastic_straw: 1
+  six_pack_plastic_rings: 1
+  plastic_water_bottle: 1
+  coffee_pod: 1
+  plastic_cup: 1
+  disposable_diaper: 1
+  plastic_toothbrush: 1
 
 two:
-  name: MyString
-  number: 1
+  plastic_bags: 1
+  coffee_cup: 1
+  plastic_straw: 1
+  six_pack_plastic_rings: 1
+  plastic_water_bottle: 1
+  coffee_pod: 1
+  plastic_cup: 1
+  disposable_diaper: 1
+  plastic_toothbrush: 1

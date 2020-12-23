@@ -12,7 +12,7 @@ class PlasticsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create plastic" do
     assert_difference('Plastic.count') do
-      post plastics_url, params: { plastic: { name: @plastic.name, number: @plastic.number } }, as: :json
+      post plastics_url, params: { plastic: { coffee_cup: @plastic.coffee_cup, coffee_pod: @plastic.coffee_pod, disposable_diaper: @plastic.disposable_diaper, plastic_bags: @plastic.plastic_bags, plastic_cup: @plastic.plastic_cup, plastic_straw: @plastic.plastic_straw, plastic_toothbrush: @plastic.plastic_toothbrush, plastic_water_bottle: @plastic.plastic_water_bottle, six_pack_plastic_rings: @plastic.six_pack_plastic_rings } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class PlasticsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update plastic" do
-    patch plastic_url(@plastic), params: { plastic: { name: @plastic.name, number: @plastic.number } }, as: :json
+    patch plastic_url(@plastic), params: { plastic: { coffee_cup: @plastic.coffee_cup, coffee_pod: @plastic.coffee_pod, disposable_diaper: @plastic.disposable_diaper, plastic_bags: @plastic.plastic_bags, plastic_cup: @plastic.plastic_cup, plastic_straw: @plastic.plastic_straw, plastic_toothbrush: @plastic.plastic_toothbrush, plastic_water_bottle: @plastic.plastic_water_bottle, six_pack_plastic_rings: @plastic.six_pack_plastic_rings } }, as: :json
     assert_response 200
   end
 

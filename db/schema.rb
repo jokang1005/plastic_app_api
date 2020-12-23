@@ -10,14 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_22_212926) do
+ActiveRecord::Schema.define(version: 2020_12_23_184522) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "plastics", force: :cascade do |t|
-    t.string "name"
-    t.integer "number"
+    t.integer "plastic_bags"
+    t.integer "coffee_cup"
+    t.integer "plastic_straw"
+    t.integer "six_pack_plastic_rings"
+    t.integer "plastic_water_bottle"
+    t.integer "coffee_pod"
+    t.integer "plastic_cup"
+    t.integer "disposable_diaper"
+    t.integer "plastic_toothbrush"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

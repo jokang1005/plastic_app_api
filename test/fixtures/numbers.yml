@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plastic-bags: 1
+  coffee-cup: 1
+  plastic-straw: 1
+  6-pack-plastic-rings: 1
+  plastic-water-bottle: 1
+  coffee-pod: 1
+  plastic-cup: 1
+  disposable-diaper: 1
+  plastic-toothbrush: 1
+
+two:
+  plastic-bags: 1
+  coffee-cup: 1
+  plastic-straw: 1
+  6-pack-plastic-rings: 1
+  plastic-water-bottle: 1
+  coffee-pod: 1
+  plastic-cup: 1
+  disposable-diaper: 1
+  plastic-toothbrush: 1
