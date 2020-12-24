@@ -10,6 +10,7 @@ one:
   plastic_cup: 1
   disposable_diaper: 1
   plastic_toothbrush: 1
+  user: one
 
 two:
   plastic_bags: 1
@@ -21,3 +22,4 @@ two:
   plastic_cup: 1
   disposable_diaper: 1
   plastic_toothbrush: 1
+  user: two

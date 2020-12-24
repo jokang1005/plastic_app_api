@@ -46,6 +46,6 @@ class PlasticsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def plastic_params
-      params.require(:plastic).permit(:plastic_bags, :coffee_cup, :plastic_straw, :six_pack_plastic_rings, :plastic_water_bottle, :coffee_pod, :plastic_cup, :disposable_diaper, :plastic_toothbrush)
+      params.require(:plastic).permit(:plastic_bags, :coffee_cup, :plastic_straw, :six_pack_plastic_rings, :plastic_water_bottle, :coffee_pod, :plastic_cup, :disposable_diaper, :plastic_toothbrush, :user_id)
     end
 end

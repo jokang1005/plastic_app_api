@@ -10,6 +10,7 @@ class CreatePlastics < ActiveRecord::Migration[6.0]
       t.integer :plastic_cup
       t.integer :disposable_diaper
       t.integer :plastic_toothbrush
+      t.references :user, null: false, foreign_key: true
 
       t.timestamps
     end
