@@ -1,9 +1,9 @@
 class PlasticsController < ApplicationController
-  before_action :set_plastic, only: [:show, :update, :destroy]
+  before_action : authorized :set_plastic, only: [:show, :update, :destroy] 
 
   # GET /plastics
   def index
-    @plastics = Plastic.all
+    @plastics = Plastic.where(user_id: @user.id)
 
     render json: @plastics
   end
@@ -16,6 +16,7 @@ class PlasticsController < ApplicationController
   # POST /plastics
   def create
     @plastic = Plastic.new(plastic_params)
+    @plastic.user_id = @user.id
 
     if @plastic.save
       render json: @plastic, status: :created, location: @plastic
