@@ -1,5 +1,6 @@
 class PlasticsController < ApplicationController
-  before_action : authorized :set_plastic, only: [:show, :update, :destroy] 
+  # before_action :authorized
+  before_action :set_plastic, only: [:show, :update, :destroy] 
 
   # GET /plastics
   def index
