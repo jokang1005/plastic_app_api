@@ -38,6 +38,8 @@ class PlasticsController < ApplicationController
   # DELETE /plastics/1
   def destroy
     @plastic.destroy
+    @plastic.user_id = @user.id
+
   end
 
   private
